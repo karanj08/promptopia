@@ -21,13 +21,6 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
     <div className="prompt_card">
       <div className="flex justify-between items-start gap-5">
         <div className="flex-1 flex justify-start items-center gap-3 cursor-pointer">
-          {/* <Image
-            src={post.creator.image}
-            alt="user_image"
-            height={40}
-            width={40}
-            className="roundedd-full object-contain"
-          /> */}
           <div className="flex flex-col">
             <h3 className="font-satoshi font-semibold text-gray-900">
               {post.creator.username}
@@ -77,3 +70,13 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 };
 
 export default PromptCard;
+
+{
+  /* <Image
+            src={post.creator.image}
+            alt="user_image"
+            height={40}
+            width={40}
+            className="roundedd-full object-contain"
+          /> */
+}
